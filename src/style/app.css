@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;  
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+}
+app {
+  display: block;
+  height: 100%;
+  display: flex;
+  height: 100%;
+}
+.sidebar {
+  flex-basis: 300px;
+  box-shadow: 4px 0px 5px -5px #888;
+}
+
+/* logo */
+.logo {
+  padding: 10px;
+  margin-left: 40px;
+  font-size: 26px;
+}
+.logo span {
+  position: absolute;
+  top: 21px;
+  color: #cd201f;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.logo img {
+  margin-top: 8px;
+  margin-right: 4px;
+  width:45px
+}
+
+
+
+/* search results styling */
+
+form.search-videos {
+  margin: 0px 30px 30px 30px;
+}
+form.search-videos input {
+  width: 225px;
+  padding: 10px;
+}
+
+.video-title {
+  width: 290px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+ .video-date {
+  font-size: 10px;
+  color: gray;
+ }
+
+
+.fv-search-result {
+  border-top:1px solid #e5dcdc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fv-search-result:hover { 
+  background-color: #F5F0F0;
+}
+
+#toggle-star {
+  position: absolute;
+  left: 280px;
+}
+
+
+/* favorites library styling */
+
+section.favorites {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.favorites .video-box {
+  flex-basis: 150px;
+  height: 70px;
+  margin: 20px;
+  background-color: red;
+}
+
+article.video-container {
+  border: 1px solid #EAE4E4;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.video-header {
+  padding: 0px 0px 5px 0px;
+}
+
+.remove-video {
+  float: right;
+  cursor:pointer;
+}
